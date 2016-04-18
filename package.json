@@ -50,11 +50,13 @@
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.10.1"
   },
-  "main": "dist/localforage.js",
+  "main": "dist/localforage.node.js",
+  "browser": "dist/localforage.js",
   "bugs": {
     "url": "http://github.com/mozilla/localForage/issues"
   },
   "dependencies": {
+    "dom-storage": "^2.0.2",
     "promise": "^5.0.0"
   }
 }
